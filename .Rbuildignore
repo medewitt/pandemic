@@ -1,0 +1,4 @@
+^init\.R$
+^.*\.Rproj$
+^\.Rproj\.user$
+^README\.Rmd$

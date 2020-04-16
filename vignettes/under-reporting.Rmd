@@ -1,0 +1,29 @@
+---
+title: "Example Under Reporting Estimates"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Example Under Reporting Estimates}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(pandemic)
+library(nccovid)
+```
+
+```{r}
+dat <- pull_state_cases()
+```
+
+```{r}
+reports <- generate_underreporting_estimates(dat)
+```
+
