@@ -5,6 +5,8 @@
 
 <!-- badges: start -->
 
+[![Codecov test
+coverage](https://codecov.io/gh/medewitt/pandemic/branch/master/graph/badge.svg)](https://codecov.io/gh/medewitt/pandemic?branch=master)
 <!-- badges: end -->
 
 The goal of pandemic is to codify some code floating in existing papers

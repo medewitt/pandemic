@@ -13,3 +13,12 @@ usethis::use_pipe()
 
 # Add Vignettes
 usethis::use_vignette("under-reporting", title = "Example Under Reporting Estimates")
+
+# Add PAckagedown
+usethis::use_pkgdown()
+
+# Add CI
+usethis::use_github_action("check-standard")
+usethis::use_github_action("pkgdown")
+usethis::use_github_action("test-coverage")
+usethis::use_coverage()
