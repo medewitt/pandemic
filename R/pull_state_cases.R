@@ -3,7 +3,8 @@
 #' This function pull state data and formats for case reporting
 #' 
 #' @param state_of_interest the state desired
-#' 
+#' @param min_reported_deaths minimum reported deaths to keep, 
+#'     default of \code{5}
 #' @export
 #' 
 

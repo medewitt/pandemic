@@ -8,6 +8,9 @@ pull_state_cases(state_of_interest = "North Carolina", min_reported_deaths = 5)
 }
 \arguments{
 \item{state_of_interest}{the state desired}
+
+\item{min_reported_deaths}{minimum reported deaths to keep,
+default of \code{5}}
 }
 \description{
 This function pull state data and formats for case reporting

@@ -9,6 +9,8 @@ usethis::use_readme_rmd()
 usethis::use_package("dplyr")
 usethis::use_package("ggplot2")
 usethis::use_package("padr")
+usethis::use_package("lubridate")
+usethis::use_package("tidyr")
 usethis::use_pipe()
 
 # Add Vignettes

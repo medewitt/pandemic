@@ -6,6 +6,13 @@
 \usage{
 hospitalisation_to_death_truncated(x, mu, sigma)
 }
+\arguments{
+\item{x}{the input value}
+
+\item{mu}{the mean of the lognormal function}
+
+\item{sigma}{the standard deviation of the lognomal distribution}
+}
 \description{
 Hospitalization to Death Truncated
 }

@@ -17,7 +17,9 @@ Imports:
     dplyr,
     ggplot2,
     padr,
-    magrittr
+    magrittr,
+    lubridate,
+    tidyr
 Remotes: 
     nctriadresearch/nccovid
 Suggests: 

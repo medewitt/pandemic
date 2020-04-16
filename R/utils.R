@@ -1,0 +1,19 @@
+globalVariables(
+	c("country",
+		"total_cases",
+		"total_deaths",
+		"underreporting_estimate",
+		"lower",
+		"upper",
+		"new_cases",
+		"new_deaths",
+		"cum_deaths",
+		"tot",
+		".",
+		"cum_known_t",
+		"total_deaths",
+		"total_cases",
+		"cCFR",
+		"cCFR_UQ",
+		"cCFR_LQ"
+	))
