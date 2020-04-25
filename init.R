@@ -12,7 +12,6 @@ usethis::use_package("padr")
 usethis::use_package("lubridate")
 usethis::use_package("tidyr")
 usethis::use_pipe()
-
 # Add Vignettes
 usethis::use_vignette("under-reporting", title = "Example Under Reporting Estimates")
 

@@ -27,3 +27,11 @@ dat <- pull_state_cases()
 reports <- generate_underreporting_estimates(dat)
 ```
 
+```{r}
+library(dplyr)
+reports %>% 
+  arrange(-lower) %>% 
+  select(country, total_cases, total_deaths, underreporting_estimate_clean) %>% 
+  knitr::kable(col.names = c("County", "Total Cases", "Total Deaths", "Likely Percentage<br> of Sympt Cases Reported"))
+```
+

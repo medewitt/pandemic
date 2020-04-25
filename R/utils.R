@@ -15,5 +15,8 @@ globalVariables(
 		"total_cases",
 		"cCFR",
 		"cCFR_UQ",
-		"cCFR_LQ"
+		"cCFR_LQ",
+		"county",
+		"cases_daily",
+		"deaths_daily"
 	))
