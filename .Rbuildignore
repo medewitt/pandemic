@@ -8,3 +8,9 @@
 ^\.github$
 ^codecov\.yml$
 ^LICENSE\.md$
+^data-raw$
+^Read-and-delete-me$
+^init\.R$
+^README\.Rmd$
+^\.travis\.yml$
+^\.github$

@@ -11,6 +11,7 @@ usethis::use_package("ggplot2")
 usethis::use_package("padr")
 usethis::use_package("lubridate")
 usethis::use_package("tidyr")
+usethis::use_package("EnvStats")
 usethis::use_pipe()
 # Add Vignettes
 usethis::use_vignette("under-reporting", title = "Example Under Reporting Estimates")
@@ -23,3 +24,8 @@ usethis::use_github_action("check-standard")
 usethis::use_github_action("pkgdown")
 usethis::use_github_action("test-coverage")
 usethis::use_coverage()
+
+# Raw Data
+usethis::use_data_raw(name = "covid19_serial_interval")
+
+rstantools::use_rstan(pkgdir = here::here())

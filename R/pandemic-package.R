@@ -1,8 +1,15 @@
-#' @keywords internal
+#' The 'pandemic' package.
+#'
+#' @description A DESCRIPTION OF THE PACKAGE
+#'
+#' @docType package
+#' @name pandemic-package
+#' @aliases pandemic
+#' @useDynLib pandemic, .registration = TRUE
+#' @import methods
+#' @import Rcpp
+#' @importFrom rstan sampling
+#'
+#' @references
+#' Stan Development Team (2019). RStan: the R interface to Stan. R package version 2.19.2. https://mc-stan.org
 "_PACKAGE"
-
-# The following block is used by usethis to automatically manage
-# roxygen namespace tags. Modify with care!
-## usethis namespace: start
-## usethis namespace: end
-NULL
